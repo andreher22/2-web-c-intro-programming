@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PilatesAndi</title>
+
+    <!-- Librería para íconos Feather -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#inicio">
+            <!-- Ícono FEATHER en vez de imagen -->
+            <span data-feather="feather"></span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#pilates-barre">Pilates Barre</a></li>
+                <li><a href="#pilates-casa">Pilates en Casa</a></li>
+                <li><a href="#pilates-asistidos">Pilates Asistidos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main (contenido principal) -->
+    <main id="inicio">
+
+        <h1>Pilates: Ejercicio para el cuerpo y la mente</h1>
+        <h2>Beneficios y técnicas para una vida saludable</h2>
+
+        <article>
+            <h3>¿Por qué Pilates es ideal para todos?</h3>
+            <p>
+                El Pilates es un método de entrenamiento de bajo impacto que mejora la postura,
+                fortalece el core y aumenta la flexibilidad. Es perfecto tanto para mujeres como
+                para hombres, incluso si nunca han hecho ejercicio. Lo mejor es que puede
+                practicarse en casa con poco o ningún equipo.
+            </p>
+            <p>
+                Su enfoque en la respiración, el control del cuerpo y la alineación lo convierte
+                en una disciplina segura para cualquier edad. Además, puede adaptarse a lesiones,
+                a principiantes o a personas que buscan un entrenamiento más avanzado.
+            </p>
+        </article>
+
+        <!-- Secciones de pilates -->
+
+        <section id="pilates-barre">
+            <h3>Pilates Barre</h3>
+            <img src="img/barre.jpg"
+                alt="Pilates Barre ilustración" width="150">
+            <p>Combinación de Pilates con ballet para mejorar fuerza, equilibrio y gracia.</p>
+        </section>
+
+        <hr>
+
+        <section id="pilates-casa">
+            <h3>Pilates en Casa</h3>
+            <img src="img/casa.jpeg" alt="Pilates en casa ilustración"
+                width="150">
+            <p>Ejercicios accesibles sin equipo para entrenar en cualquier lugar.</p>
+        </section>
+
+        <hr>
+
+        <section id="pilates-asistidos">
+            <h3>Pilates Asistidos</h3>
+            <img src="img/asistidos.jpg"
+                alt="Pilates asistidos ilustración" width="150">
+            <p>Pilates con máquinas como Reformer o Cadillac para mayor precisión.</p>
+        </section>
+
+
+        <!-- Lista de ejercicios -->
+
+        <section>
+            <h3>Ejercicios y rutinas recomendadas</h3>
+            <ul>
+                <li>
+                    <a href="#abs">
+                        <span data-feather="activity"></span> Abs (Core)
+                    </a>
+                </li>
+                <li>
+                    <a href="#pierna-gluteo">
+                        <span data-feather="trending-up"></span> Pierna y Glúteo
+                    </a>
+                </li>
+                <li>
+                    <a href="#brazos">
+                        <span data-feather="bar-chart"></span> Brazos
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Placas de instructores recomendados -->
+
+        <section>
+            <h3>Canales recomendados de Pilates</h3>
+
+            <div class="placa-autor">
+                <!-- Ícono en vez de imagen -->
+                <span data-feather="user"></span>
+                <div>
+                    <p>Blogilates</p>
+                    <p>Instructora de Pilates y Fit</p>
+                    <a href="https://www.youtube.com/user/blogilates">YouTube</a>
+                </div>
+            </div>
+
+            <div class="placa-autor">
+                <span data-feather="user"></span>
+                <div>
+                    <p>Move with Nicole</p>
+                    <p>Rutinas completas de Pilates</p>
+                    <a href="https://www.youtube.com/c/Movewithnicole">YouTube</a>
+                </div>
+            </div>
+
+            <div class="placa-autor">
+                <span data-feather="user"></span>
+                <div>
+                    <p>Pilates Anytime</p>
+                    <p>Profesores certificados</p>
+                    <a href="https://www.youtube.com/c/pilatesanytime">YouTube</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de contacto -->
+
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Envíanos un mensaje</legend>
+
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Ícono FEATHER en vez de imagen -->
+        <span data-feather="heart"></span>
+
+        <p>PilatesAndi</p>
+        <p>Todos los derechos reservados</p>
+
+        <nav>
+            <ul>
+                <li><a href="https://instagram.com/">Instagram</a></li>
+                <li><a href="https://linkedin.com/">LinkedIn</a></li>
+                <li><a href="https://dribbble.com/">Dribbble</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Script para activar los íconos -->
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>

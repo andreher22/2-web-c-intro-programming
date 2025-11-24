@@ -57,8 +57,8 @@ GitHub Pages para despliegue
 Sitio Publicado
 
 Puedes ver la versión en línea del proyecto en:
-🔗 GitHub Pages:
-🔗 Repositorio en GitHub: 
+🔗 GitHub Pages: https://andreher22.github.io/2-web-c-intro-programming/
+🔗 Repositorio en GitHub: https://github.com/andreher22/2-web-c-intro-programming/
 
 Cómo Ejecutar el Proyecto Localmente
 
